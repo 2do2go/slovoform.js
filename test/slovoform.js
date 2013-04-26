@@ -1,10 +1,10 @@
 'use strict';
 
 var assert = require('assert'),
-	Nplural = require('../lib/slovoform').Nplural,
+	Pluralize = require('../lib/slovoform').Pluralize,
 	Genderify = require('../lib/slovoform').Genderify;
 
-var nplural = new Nplural(),
+var nplural = new Pluralize(),
 	form1 = 'час', form2 = 'часа', form3 = 'часов';
 
 nplural.add(form1, form2, form3);
