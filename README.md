@@ -1,10 +1,10 @@
 #Slovoform
-Library for plural and gender word forms for Russian language
+Library for plural and gender word forms for russian language
 
 #Examples
 Very easy to use:
 ```js
-var slovoform = require('sloveform'),
+var slovoform = require('slovoform'),
     nplural = new slovoform.Nplural(),
     genderify = new slovoform.Genderify();
     
