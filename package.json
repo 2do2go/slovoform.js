@@ -1,6 +1,6 @@
 {
   "name": "slovoform",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library for plural and gender word forms for Russian language",
   "author": {
     "name": "Pavel Vlasov",

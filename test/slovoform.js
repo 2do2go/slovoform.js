@@ -4,16 +4,16 @@ var assert = require('assert'),
 	Pluralize = require('../lib/slovoform').Pluralize,
 	Genderify = require('../lib/slovoform').Genderify;
 
-var nplural = new Pluralize(),
+var pluralize = new Pluralize(),
 	form1 = 'час', form2 = 'часа', form3 = 'часов';
 
-nplural.add(form1, form2, form3);
+pluralize.add(form1, form2, form3);
 
-assert.equal(nplural.get(form1, 1), form1);
-assert.equal(nplural.get(form1, 2), form2);
-assert.equal(nplural.get(form1, 3), form2);
-assert.equal(nplural.get(form1, 5), form3);
-assert.equal(nplural.get(form1, 20), form3);
+assert.equal(pluralize.get(form1, 1), form1);
+assert.equal(pluralize.get(form1, 2), form2);
+assert.equal(pluralize.get(form1, 3), form2);
+assert.equal(pluralize.get(form1, 5), form3);
+assert.equal(pluralize.get(form1, 20), form3);
 
 var genderify = new Genderify(),
 	form1 = 'сказал', form2 = 'сказала';
