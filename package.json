@@ -1,6 +1,6 @@
 {
   "name": "slovoform",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Library for plural and gender word forms for Russian language",
   "author": {
     "name": "Pavel Vlasov",
@@ -22,5 +22,8 @@
   "main": "./lib/slovoform",
   "engines": {
     "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node test/slovoform.js && echo 'All tests are done'"
   }
 }
